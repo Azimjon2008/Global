@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<!-- 
+    ДЗ
+    При наведение (событие mouseover) на блок .header__content начинает рандомно двигаться при помощи marginTop и marginLeft
+    И блок не должен выходить за пределы видимой облости экрана
+ -->
+<body>
+    <header class="header">
+        <div class="header__content">
+            <h1>HEADER TITLE</h1>
+            <p>header description</p>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item"><a href="#" class="header__menu-link">link 1</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">link 2</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">link 3</a></li>
+            </ul>
+            <a href="#" class="header__logo">logo</a>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="info">
+            <img src="img/img.jpg" alt="" class="info__img">
+            <div class="info__scroll">
+                <h2 class="info__scroll-title">Скроллинг</h2>
+                <p class="info__scroll-desc">
+                     Форма представления информации, при которой содержимое двигается в вертикальном или горизонтальном направлении. Таким образом, скроллинг не изменяет содержимое, но передвигает «камеру»
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__info">
+            Материал предоставлен в качестве изучания class в JavaScript
+            <span class="footer__info-company">PROWEB</span>
+        </p>
+    </footer>
+    <script src="js.js"></script>
+</body>
+
+</html>
+
+<!--  -->
